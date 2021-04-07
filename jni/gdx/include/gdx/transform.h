@@ -1,8 +1,9 @@
 #ifndef GDX_TRANSFORM_H
 #define GDX_TRANSFORM_H
 
-struct GdxPosition;
-struct GdxTransform;
+typedef struct GdxPosition GdxPosition;
+typedef struct GdxTransform GdxTransform;
+
 
 GdxTransform* gdxTransformNew();
 void gdxTransformFree(GdxTransform* transform);
